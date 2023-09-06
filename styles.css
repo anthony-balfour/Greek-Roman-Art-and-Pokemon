@@ -1,0 +1,82 @@
+/**
+  * Name: Anthony Balfour
+  * Date: 5/5/ 2023
+  * Section: CSE 154 AF
+  *
+  * This stylesheet contains the styling for index.html. This styles the Greek and Roman Art
+  * landing page, which includes the page title, the button, and the fetched greek roman art/title
+  * Styles the pokemon input field, and the fetched pokemon title and sprite
+  * Styles the errors when fetching from either API
+  */
+
+/* global styles */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main section > section {
+  width: 50vw;
+}
+
+/* Greek and Roman Art Styling */
+
+main > section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ga h1 {
+  font-family: "Caesar Dressing", cursive;
+  font-size: 4.7rem;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-family: "Quattrocento", serif;
+}
+
+#ga-piece {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#ga span {
+  margin-left: 4.6rem;
+}
+
+#ga h1:last-child {
+  color: rgb(112, 53, 41);
+}
+
+#ga h1:first-child {
+  color: rgb(46, 53, 70);
+}
+
+#ga-title {
+  max-width: 500px;
+  text-align: center;
+}
+
+#ga button {
+  border-radius: 80%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(112, 53, 41);
+  transition: all 1s;
+  border: black solid 3px;
+}
+
+#ga button:hover {
+  transform: scale(1.6);
+  cursor: pointer;
+}
+
+/* Pokemon Section Styling */
